@@ -1,19 +1,22 @@
 {
-  "male": {
-    "english": [
+  "m": {
+    "EN": [
       "Happy birthday _! \uD83C\uDF7B",
       "Hey _, happy birthday! Hope you have a great day \uD83C\uDF89"
     ],
-    "dutch": {
-
-    }
+    "NL": [
+      "Hey _, gefeliciteerd! \uD83C\uDF89",
+      "Hey _, proficiat! \uD83C\uDF89",
+      "Proficiat _! Fijne verjaardag! \uD83C\uDF89",
+      "Gefeliciteerd _! Fijne verjaardag! \uD83C\uDF89"
+    ]
   },
-  "female": {
-    "english": [
+  "f": {
+    "EN": [
       "Happy birthday _! \uD83C\uDF89",
       "Hey _, happy birthday! Hope you have a great day \uD83C\uDF89"
     ],
-    "dutch": [
+    "NL": [
       "Hey _, gefeliciteerd! \uD83C\uDF89",
       "Hey _, proficiat! \uD83C\uDF89",
       "Proficiat _! Fijne verjaardag! \uD83C\uDF89",
