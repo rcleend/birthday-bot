@@ -1,26 +1,26 @@
 {
   "m": {
     "EN": [
-      "Happy birthday _! \uD83C\uDF7B",
-      "Hey _, happy birthday! Hope you have a great day \uD83C\uDF89"
+      "Happy birthday _!",
+      "Hey _, happy birthday! Hope you have a great day"
     ],
     "NL": [
-      "Hey _, gefeliciteerd! \uD83C\uDF89",
-      "Hey _, proficiat! \uD83C\uDF89",
-      "Proficiat _! Fijne verjaardag! \uD83C\uDF89",
-      "Gefeliciteerd _! Fijne verjaardag! \uD83C\uDF89"
+      "Hey _, gefeliciteerd!",
+      "Hey _, proficiat!",
+      "Proficiat _! Fijne verjaardag!",
+      "Gefeliciteerd _! Fijne verjaardag!"
     ]
   },
   "f": {
     "EN": [
-      "Happy birthday _! \uD83C\uDF89",
-      "Hey _, happy birthday! Hope you have a great day \uD83C\uDF89"
+      "Happy birthday _!",
+      "Hey _, happy birthday! Hope you have a great day"
     ],
     "NL": [
-      "Hey _, gefeliciteerd! \uD83C\uDF89",
-      "Hey _, proficiat! \uD83C\uDF89",
-      "Proficiat _! Fijne verjaardag! \uD83C\uDF89",
-      "Gefeliciteerd _! Fijne verjaardag! \uD83C\uDF89"
+      "Hey _, gefeliciteerd!",
+      "Hey _, proficiat!",
+      "Proficiat _! Fijne verjaardag!",
+      "Gefeliciteerd _! Fijne verjaardag!"
     ]
   }
 }
