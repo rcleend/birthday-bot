@@ -28,8 +28,13 @@ if not my_events:
 myIGMessageSender.login()
 
 for event in my_events:
-    birthday = myGCalendarEventParser.parseToBirthday(event)
-    myMessageBuilder.build_birthday_message(birthday)
-    myIGMessageSender.send_message(birthday.contact, birthday.message)
+    try:
+        birthday = myGCalendarEventParser.parseToBirthday(event)
+        myMessageBuilder.build_birthday_message(birthday)
+        myIGMessageSender.send_message(birthday.contact, birthday.message)
+    except KeyError:
+        print('KeyError: Event couldn\'t be parsed. Please check event description')
+    except Exception as e:
+        print(e)
 
 myIGMessageSender.close_driver()
