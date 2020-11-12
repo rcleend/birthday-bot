@@ -4,3 +4,4 @@ token.pickle
 venv
 *.log
 .idea
+.DS_Store
