@@ -8,7 +8,7 @@ from time import sleep
 class IGMessageSender:
 
     def __init__(self):
-        self.driver = webdriver.Firefox()
+        self.driver = webdriver.Chrome()
 
     def login(self):
         self.driver.get('https://instagram.com')
