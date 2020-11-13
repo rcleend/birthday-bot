@@ -4,6 +4,7 @@ from utils import MessageBuilder
 from utils import IGMessageSender
 
 from dotenv import load_dotenv
+
 import os
 import datetime
 
@@ -12,7 +13,6 @@ load_dotenv()
 myGCalendarEventParser = GCalenderEventParser.GCalendarEventParser()
 myGCalendarAPI = GCalendarAPI.GCalendarAPI()
 myMessageBuilder = MessageBuilder.MessageBuilder()
-myIGMessageSender = IGMessageSender.IGMessageSender()
 
 myGCalendarAPI.authenticate()
 
@@ -25,6 +25,7 @@ if not my_events:
     print('No upcoming events found.')
     exit()
 
+myIGMessageSender = IGMessageSender.IGMessageSender()
 myIGMessageSender.login()
 
 for event in my_events:
