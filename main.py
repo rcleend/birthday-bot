@@ -14,12 +14,15 @@ myGCalendarEventParser = GCalenderEventParser.GCalendarEventParser()
 myGCalendarAPI = GCalendarAPI.GCalendarAPI()
 myMessageBuilder = MessageBuilder.MessageBuilder()
 
+
 myGCalendarAPI.authenticate()
 
 time_min = datetime.datetime.now().isoformat() + 'Z'  # 'Z' indicates UTC time
 time_max = (datetime.datetime.now() + datetime.timedelta(hours=1)).isoformat() + 'Z'  # 'Z' indicates UTC time
 
 my_events = myGCalendarAPI.get_events(os.getenv("CALENDAR_ID"), time_min, time_max)
+
+print(time_min, end=": ")
 
 if not my_events:
     print('No upcoming events found.')
@@ -39,3 +42,4 @@ for event in my_events:
         print(e)
 
 myIGMessageSender.close_driver()
+
